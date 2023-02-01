@@ -7,11 +7,12 @@ import Shop from "./pages/Shop"
 import Profile from "./pages/Profile"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
-
+import  Header  from "./component/Header";
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <Header/>
 <Nav/>
         <Routes>
           <Route path="/" element={<Accueil />} />
