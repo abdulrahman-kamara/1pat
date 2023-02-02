@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Profile = () => {
+const Equides = () => {
   return (
    <section>
     <h1>
-        Bienvenu sur le profile
+        Bienvenue sur Equides
     </h1>
    </section>
   )
 }
 
-export default Profile;
+export default Equides;

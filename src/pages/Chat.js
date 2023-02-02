@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Shop = () => {
+const Chat = () => {
   return (
    <section>
     <h1>
-        Bienvenu sur le shop
+        Bienvenue sur chat
     </h1>
    </section>
   )
 }
 
-export default Shop;
+export default Chat;

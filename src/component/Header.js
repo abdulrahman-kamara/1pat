@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { ImCross } from 'react-icons/im'
 import { IoMenu } from 'react-icons/io5'
 import Button from './Button'
+import SearchBar from './searchbar'
 
  const Header = () => {
     const [mobile, setMobile] = useState(false)
@@ -18,10 +19,15 @@ import Button from './Button'
      
      {/*  */}
       </div>
-    
-    <div className='space-x-2 flex flex-col '>
+      <SearchBar>
+        rechercher
+      </SearchBar>
+    <div className='space-x-2 flex flex-row '>
       <Button>
         Se connecter
+      </Button>
+      <Button>
+        S'inscrire
       </Button>
     </div>
     

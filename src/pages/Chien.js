@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Contact = () => {
+const Chien = () => {
   return (
    <section>
     <h1>
-        Bienvenu sur contact
+        Bienvenue sur chien
     </h1>
    </section>
   )
 }
 
-export default Contact;
+export default Chien;
